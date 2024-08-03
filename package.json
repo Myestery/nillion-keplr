@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@cosmjs/proto-signing": "^0.32.4",
+    "@cosmjs/stargate": "^0.32.4",
     "add-keplr-chain": "^0.0.3",
     "next": "14.2.5",
     "react": "^18",
