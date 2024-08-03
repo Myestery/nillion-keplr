@@ -101,6 +101,7 @@ const Button: FunctionComponent = () => {
         buttonText='Connect to Nillion Testnet'
         loadingText='Connecting...'
         buttonClassName="px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-full hover:bg-blue-700 active:bg-blue-800 transition-all duration-300 ease-in-out transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50 mb-4"
+        // @ts-ignore
         ref={connectButtonRef}
       />
       <button
